@@ -67,6 +67,7 @@ header #buscar{
     padding-top: 10px;
     margin-right: 20px;
     border-radius: 3px;
+    
 }
 
 #publicacionN{
@@ -87,6 +88,8 @@ header #buscar{
     background-color: #091540;
     padding: 10px;
     float: right;
+    border: 3px gray solid;
+    border-radius: 3px;
 }
 #publicar #btnPubli:hover {
     background-color: #152f8f;
@@ -124,6 +127,9 @@ header #buscar{
     background-color: #091540;
     padding: 10px;
     float: right;
+    border-radius: 3px;
+    border: 3px gray solid;
+    margin: 3px;
 }
 .texto button:hover{
     background-color: #152f8f;
@@ -137,10 +143,16 @@ header #buscar{
     background-color: #091540;
     padding: 10px;
     float: left;
+    border-radius: 3px;
+    border: 3px gray solid;
+    margin: 3px;
 }
 .eliminar{
      color: white;
     background-color: #091540;
     padding: 10px;
     float: left;
+    border-radius: 3px;
+    border: 3px gray solid;
+    margin: 3px;
 }
