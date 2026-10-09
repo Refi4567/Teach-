@@ -13,7 +13,7 @@ body{
     background-color: #091540;
     width: 12%;
     margin-right: 10px;
-    padding: 10px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -22,10 +22,11 @@ body{
     flex-direction: column;
     list-style: none;
     text-align: center;
+    width: 100%;
 }
 #menu nav ul li{
-    padding-bottom: 100%;
-    padding-top: 100%;
+    padding-bottom: 50%;
+    padding-top: 50%;
 }
 #menu nav ul li a{
     color: white;
@@ -33,12 +34,7 @@ body{
 }
 #menu nav ul li a:hover{
     background-color: #152f8f;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 3px;
+   
 }
 main{
     background-color: whitesmoke;
@@ -137,6 +133,7 @@ header #buscar{
 #muro{
     width: 88%;
     height: 100%;
+    padding: 5%;
 }
 .modificar{
     color: white;
@@ -155,4 +152,14 @@ header #buscar{
     border-radius: 3px;
     border: 3px gray solid;
     margin: 3px;
+}
+#tabla{
+    border-radius: 10px;
+    background-color: white;
+}
+#add{
+    background-color: #091540;
+}
+#add:hover{
+    background-color: #152f8f;
 }
